@@ -72,6 +72,17 @@ class points:
                 return 'The line is vertical and does not increase'
     def prediction(self, Y1, Y2, X1, X2):
         
-# class formula:
-
-        
+def question(self):
+    lineQuest = input('What type of line are you looking for [linear] ')
+    if lineQuest == 'linear' or lineQuest =='Linear' or lineQuest == 'linear relations' or lineQuest == 'linear relation':
+        linearQues = input('Would you like to find [slope, x-int, y-int, formula, descprition, prediction] ')
+        linedec = input("Do you know the [points or the formula]: ")
+        if linedec is 'points' or linedec is 'Points' or linedec is 'point' or linedec is 'Point':
+                x1 = input(int('Enter X1: '))
+                y1 = input(int('Enter Y1: '))
+                x2 = input(int('Enter X2: '))
+                y2 = input(int('Enter X2: '))
+                if linearQues is 'slope' or linearQues is 'Slope' or linearQues is 's':
+                        point.slope(y1, y2, x1, x2)
+                if linearQues is 'x-int' or linearQues is 'X-int' or linearQues is 'x':
+                        point.x_int(y1, y2, x1, x2)
