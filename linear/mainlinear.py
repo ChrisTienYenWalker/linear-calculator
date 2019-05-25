@@ -1,5 +1,6 @@
 import linear_using_points as points
 import linear_using_formula as formula 
+
 def intersectingX(self, m1, m2, b1, b2):
     m = m1 - m2
     b = b1 - b2
