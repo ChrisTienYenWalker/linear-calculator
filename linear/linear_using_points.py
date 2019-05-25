@@ -41,7 +41,7 @@ class description:
         else:
             print('it does not pass through the origin')
     def formula(self, Y1, Y2, X1, X2):
-        s1 = X1*rate(0, Y1, Y2, X1, X2)
+        s1 = X1 * rate(0, Y1, Y2, X1, X2)
         b = Y1 - s1
         if b is 0:
             return ("Y=" + rate(0, Y1, Y2, X1, X2) + "X")
