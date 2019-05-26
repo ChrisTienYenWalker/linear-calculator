@@ -93,6 +93,6 @@ while  2 > 1:
         B2 = int(input('what is the y-int for the second line: '))
         b1 = 0 - B1
         b2 = 0 - B2
-        print('The points are (' + intersectingX(0, m1 , m2, b1, b2) + ',' + intersectingY(0, m1, m2, b1, b2, B1) + ')')
+        print('The points are (' + formula.intersectingX(0, m1 , m2, b1, b2) + ',' + formula.intersectingY(0, m1, m2, b1, b2, B1) + ')')
         
                 
