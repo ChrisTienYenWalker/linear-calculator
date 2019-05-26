@@ -1,16 +1,6 @@
 import linear_using_points as points
 import linear_using_formula as formula 
 
-def intersectingX(self, m1, m2, b1, b2):
-    m = m1 - m2
-    b = b1 - b2
-    x = b / m
-    return x
-def intersectingY(self, m1, m2, b1, b2, B1):
-    x = intersectingX(0, m1, m2 , b1, b2)
-    s = m1 * x
-    y = s + B1
-    return y
 
 print('welcome to the linear calculator')
 
